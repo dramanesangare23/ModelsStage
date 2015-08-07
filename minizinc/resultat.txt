@@ -1,0 +1,1 @@
+Cette ligne est a supprimer si l'installation de minizinc est definitif, decommenter la ligne suivante 

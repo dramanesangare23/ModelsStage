@@ -1,0 +1,9 @@
+#bin/sh
+#Before all, make sure that mzn2fzn and flatzinc are executable programs.
+#To do that, just add the directory containing these commands in the PATH variables that way :
+export PATH=$PATH:/home/dramane/workspace/GestionFlotte/ModelsStage/minizinc/bin 
+
+#execute .mzn file with command minizinc
+minizinc affectations.mzn entrees.dzn > resultat.txt
+
+ exit 0
